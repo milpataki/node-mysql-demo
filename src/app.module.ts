@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { User } from './typeorm/entities/user';
+import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [TypeOrmModule.forRoot({
@@ -14,7 +15,7 @@ import { User } from './typeorm/entities/user';
     database: "nestjs-tutorial",
     entities: [User],
     synchronize: true
-  })],
+  }), UsersModule],
   controllers: [AppController],
   providers: [AppService],
 })
