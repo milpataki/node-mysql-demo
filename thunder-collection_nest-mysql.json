@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "nest-mysql",
-    "dateExported": "2023-05-06T11:53:25.913Z",
+    "dateExported": "2023-05-06T21:29:13.433Z",
     "version": "1.1",
     "folders": [
         {
@@ -17,6 +17,13 @@
             "containerId": "",
             "created": "2023-05-06T11:41:58.988Z",
             "sortNum": 20000
+        },
+        {
+            "_id": "ac48a2f6-972a-4f9c-9ffb-9c75761c823e",
+            "name": "post",
+            "containerId": "",
+            "created": "2023-05-06T12:21:55.476Z",
+            "sortNum": 30000
         }
     ],
     "requests": [
@@ -35,6 +42,25 @@
             "body": {
                 "type": "json",
                 "raw": "{\n  \"firstName\": \"Johnny\",\n  \"lastName\": \"Walker\",\n  \"age\": 1,\n  \"dob\": \"string\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3f735a63-8fa9-4b4b-8245-3f2414c451fc",
+            "colId": "32dc87e9-4faf-4eb0-844f-30bedf2a79e9",
+            "containerId": "ac48a2f6-972a-4f9c-9ffb-9c75761c823e",
+            "name": "PostCreate",
+            "url": "localhost:3000/users/2/posts",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-06T12:21:55.477Z",
+            "modified": "2023-05-06T12:23:51.590Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Titt\",\n  \"description\": \"DEsC\"\n}",
                 "form": []
             },
             "tests": []

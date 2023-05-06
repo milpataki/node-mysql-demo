@@ -10,12 +10,8 @@ import { UsersModule } from './users/users.module';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
-      type: 'mysql',
-      host: 'localhost',
-      port: 3306,
-      username: 'testuser',
-      password: 'testuser123',
-      database: 'nestjs-tutorial',
+      type: 'sqlite',
+      database: 'nestjs-tutorial.db',
       entities: [User,Profile,Post],
       synchronize: true,
     }),
