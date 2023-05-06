@@ -15,3 +15,7 @@ export type CreateUserProfileParams = {
   dob: string;
 };
 
+export type CreateUserPostParams = {
+  title: string;
+  description: string;
+};
