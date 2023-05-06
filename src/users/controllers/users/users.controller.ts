@@ -3,13 +3,14 @@ import {
   Controller,
   Delete,
   Get,
+  Param,
   ParseIntPipe,
   Post,
   Put,
 } from '@nestjs/common';
-import { Param } from '@nestjs/common/decorators';
-import { UpdateUserDto } from 'src/users/dtos/UpdateUser.dto';
 import { CreateUserDto } from '../../dtos/CreateUser.dto';
+import { CreateUserProfileDto } from 'src/users/dtos/CreateUserProfile.dto';
+import { UpdateUserDto } from 'src/users/dtos/UpdateUser.dto';
 import { UsersService } from '../../services/users/users.service';
 
 @Controller('users')
@@ -38,6 +39,13 @@ export class UsersController {
     await this.userService.deleteUser(id);
   }
 
+  @Post(':id/profiles')
+  createUserProfile(
+    @Param('id', ParseIntPipe) id: number,
+    @Body() createUserProfileDto: CreateUserProfileDto,
+  ) {
+    return this.userService.createUserProfile(id, createUserProfileDto);
+  }
 
 
 

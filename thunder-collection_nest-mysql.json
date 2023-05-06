@@ -1,0 +1,109 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "nest-mysql",
+    "dateExported": "2023-05-06T11:53:25.913Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "e7622733-8628-4e98-af39-4bf534af99fe",
+            "name": "user",
+            "containerId": "",
+            "created": "2023-05-06T11:41:39.892Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "ccdc8bdf-eac9-4e46-95a6-8401b52c045c",
+            "name": "profile",
+            "containerId": "",
+            "created": "2023-05-06T11:41:58.988Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "33ff9eb0-cfa1-44b3-9fc8-f4083a7ba88f",
+            "colId": "32dc87e9-4faf-4eb0-844f-30bedf2a79e9",
+            "containerId": "ccdc8bdf-eac9-4e46-95a6-8401b52c045c",
+            "name": "ProfileCreate",
+            "url": "localhost:3000/users/1/profiles",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-06T11:42:10.873Z",
+            "modified": "2023-05-06T11:46:16.567Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\": \"Johnny\",\n  \"lastName\": \"Walker\",\n  \"age\": 1,\n  \"dob\": \"string\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7ffe69b1-d157-4cb9-90f2-812f654f09d8",
+            "colId": "32dc87e9-4faf-4eb0-844f-30bedf2a79e9",
+            "containerId": "e7622733-8628-4e98-af39-4bf534af99fe",
+            "name": "UserUPD",
+            "url": "localhost:3000/users/10",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-05-06T10:05:40.866Z",
+            "modified": "2023-05-06T11:41:47.907Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"nice\",\n  \"password\": \"kalap\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "09623058-e599-4b33-8ca8-98dc0cea3753",
+            "colId": "32dc87e9-4faf-4eb0-844f-30bedf2a79e9",
+            "containerId": "e7622733-8628-4e98-af39-4bf534af99fe",
+            "name": "UserDelete",
+            "url": "localhost:3000/users/2",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-05-06T10:52:01.638Z",
+            "modified": "2023-05-06T11:41:49.255Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ce200e88-a425-40ff-a31c-87b5145b9637",
+            "colId": "32dc87e9-4faf-4eb0-844f-30bedf2a79e9",
+            "containerId": "e7622733-8628-4e98-af39-4bf534af99fe",
+            "name": "UserGet",
+            "url": "localhost:3000/users",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-05-06T07:45:03.926Z",
+            "modified": "2023-05-06T11:41:50.387Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f7b6aa12-7ed5-42dd-86c5-dcd5b7216e9d",
+            "colId": "32dc87e9-4faf-4eb0-844f-30bedf2a79e9",
+            "containerId": "e7622733-8628-4e98-af39-4bf534af99fe",
+            "name": "UserCreate",
+            "url": "localhost:3000/users",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-05-06T10:46:22.881Z",
+            "modified": "2023-05-06T11:41:51.408Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"jani\",\n  \"password\": \"kalap\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
