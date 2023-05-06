@@ -1667,9 +1667,9 @@ camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001449:
-  version "1.0.30001482"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001482.tgz#8b3fad73dc35b2674a5c96df2d4f9f1c561435de"
-  integrity sha512-F1ZInsg53cegyjroxLNW9DmrEQ1SuGRTO1QlpA0o2/6OpQ0gFeDRoq1yFmnr8Sakn9qwwt9DmbxHB6w167OSuQ==
+  version "1.0.30001485"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001485.tgz#026bb7319f1e483391872dc303a973d4f513f619"
+  integrity sha512-8aUpZ7sjhlOyiNsg+pgcrTTPUXKh+rg544QYHSvQErljVEKJzvkYkCR/hUFeeVoEfTToUtY9cUKNRC7+c45YkA==
 
 chalk@4.1.2, chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2:
   version "4.1.2"
@@ -3671,9 +3671,9 @@ mute-stream@0.0.8:
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
 mysql2@^3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-3.2.4.tgz#71493c13532500f6c4adf36078e8330782771785"
-  integrity sha512-VRjBMAB/WXd35cytsbKPy5eQMdHTQu661CcFAK+pcScVCfGpzQQR9EOM9H4z9tvEW0maVOjTAX0dqXneLX4kaQ==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-3.3.0.tgz#957808bbefff593581d02e9214bdc3dbc05eefbb"
+  integrity sha512-/+LGlWgXxppcomT1NqkUnaDchcS9tebsXsj5eZQhnAB/onlSLgqMA5W9ZRHcZPKyqg3XROJDgomB4eCkn6Ca2g==
   dependencies:
     denque "^2.1.0"
     generate-function "^2.3.1"
